@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="367e81b8-54d0-494a-97e7-eec6a037e73e" name="Changes" comment="Completely empty project.">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/core/context_compiler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/core/database_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/core/error_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/core/process_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/core/zemo_driver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/core/~ outline.md" afterDir="false" />
+    <list default="true" id="367e81b8-54d0-494a-97e7-eec6a037e73e" name="Changes" comment="Baseline project structure and outlines created.">
+      <change afterPath="$PROJECT_DIR$/base/cli_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/networking/network_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/assistant/assistant_driver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/code_sandbox/sandbox_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/commands/commands_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/training/fine_tuner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/windows_control/file_io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/windows_control/terminal_io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/windows_control/user_io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primary_ui/ui_driver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1793085872628</updated>
-      <workItem from="1793085873642" duration="6138000" />
+      <workItem from="1793085873642" duration="7767000" />
     </task>
     <task id="LOCAL-00001" summary="First commit. Empty project.">
       <option name="closed" value="true" />
@@ -103,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793086735287</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Baseline project structure and outlines created.">
+      <option name="closed" value="true" />
+      <created>1793092486561</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1793092486561</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit. Empty project." />
     <MESSAGE value="Completely empty project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completely empty project." />
+    <MESSAGE value="Baseline project structure and outlines created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Baseline project structure and outlines created." />
   </component>
 </project>
